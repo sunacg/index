@@ -1,0 +1,1 @@
+var app=angular.module("myApp",[]);app.controller("myCrty",["$scope",function(a){a.users=[{name:"小明",age:18},{name:"小李",age:12},{name:"小华",age:68},{name:"小孙",age:65},{name:"小和",age:33}],a.isshowt=!0,a.dianji=function(){a.isshowt=!a.isshowt},a.dbclick=function(){console.log(123),a.test=!0}}]);
